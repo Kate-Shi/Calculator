@@ -25,9 +25,25 @@ public class Calculator {
 
         // Display the result
         System.out.println("The double squareRoot of sum " + squareRoot);
-
         // Close the scanner to free up resources
         scanner.close();
     }
+
+    public static double multiply(double num1, double num2) {
+        return num1 * num2;
+    }
+
+    public static double subtraction(double num1, double num2) {
+        return num1 - num2;
+    }
+
+    public static double adding(double num1, double num2) {
+        return num1 + num2;
+    }
+
+    public static double dividing(double num1, double num2) {
+        return num1 / num2;
+    }
+
 
 }
